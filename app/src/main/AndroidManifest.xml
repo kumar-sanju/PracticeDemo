@@ -9,13 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VideoActivity">
+        <activity android:name=".StopwatchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TimmerActivity">
+
+        </activity>
+        <activity android:name=".TimeTableActivity"></activity>
+        <activity android:name=".ListviewActivity" />
+        <activity android:name=".PhrasesActivity" />
+        <activity android:name=".GridlayoutActivity" />
+        <activity android:name=".VideoActivity" />
     </application>
 
 </manifest>

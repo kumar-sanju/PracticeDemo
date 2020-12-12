@@ -23,6 +23,7 @@
         android:layout_centerHorizontal="true"
         android:onClick="playAudio"
         />
+
     <Button
         android:id="@+id/puaseBtn"
         android:layout_width="wrap_content"
@@ -32,6 +33,7 @@
         android:layout_centerHorizontal="true"
         android:onClick="pauseAudio"
         />
+
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="match_parent"
@@ -39,6 +41,7 @@
         android:layout_below="@+id/puaseBtn"
         android:layout_marginTop="20dp"
         />
+
     <SeekBar
         android:id="@+id/seekBar2"
         android:layout_width="match_parent"
